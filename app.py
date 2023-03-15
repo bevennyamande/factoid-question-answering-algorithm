@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from enhance import image_enhance
 from skimage.morphology import skeletonize, thin
 
-# os.chdir("/app/")
 
 def removedot(invertThin):
     temp0 = numpy.array(invertThin[:])
