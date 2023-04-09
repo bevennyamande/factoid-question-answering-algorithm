@@ -1,20 +1,5 @@
-# Python Fingerprint Recognition
+# Python Fingerprint Recognition Algorithm
 
-Fingerprint recognition with SKimage and OpenCV
+## How to
 
-Requirements:
-
-- NumPy
-- SKimage
-- OpenCV2
-
-Works by extracting minutiae points using harris corner detection.
-
-Uses SIFT (ORB) go get formal descriptors around the keypoints with brute-force hamming distance and then analyzes the returned matches using thresholds.
-
-Usage:
-
-1. Place 2 fingerprint images that you want to compare inside the database folder
-2. Pass the names of the images as arguments in the console
-
-NOTE: the fingerprints must be in the `/database` folder
+- Place the Socofing or `fingerprints data` in a folder

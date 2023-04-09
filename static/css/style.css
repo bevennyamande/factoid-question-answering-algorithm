@@ -1,0 +1,12 @@
+body{
+    background: bisque;
+}
+
+li {
+    list-style: none;
+}
+
+.results-panel {
+    background-color: beige;
+    margin: 5px;
+}
